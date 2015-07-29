@@ -16,20 +16,16 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- Custom CSS -->
 <link rel="stylesheet" href="css/main-styles.css">
-<!-- Slider Custom CSS -->
+<!-- What it Cost CSS -->
 <link rel="stylesheet" href="css/slider.css">
 <!-- Slider CSS -->
 <link rel="stylesheet" href="css/jquery.nouislider.css">
-<!-- Accordian CSS -->
-<!--<link href="../css/zozo.accordion.min.css" rel="stylesheet">-->
 <!-- jQuery served for Google -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- Bootstrap JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
 <!-- Slider JS -->
 <script src="js/slider.js"></script>
-<!--<script src="js/zozo.accordion.min.js"></script>-->
 <script src="js/jquery.nouislider.all.min.js"></script>
 <script src="js/jquery.nouislider.min.js"></script>
 
@@ -60,6 +56,9 @@
   <p>Through zipForm&#174;, receiving a commission advance from eCommission&#174; has never been easier. Just choose a pending contract, tell us how much you want, and go! Your commission is wired to your bank account within 1 business day.</p>
 <!--  <button href="#" type="button" class="btn btn-lg btn-warning">Let's Get Started</button>
   <p><span class="promo">zipForm&#174; customers get <strong>50% off</strong></span></p>-->
+  <article>
+  <a class="zf-50off" href="#">zipForm Customers get 50% off your First Advance!</a>
+  </article>
 </main>
   
 <aside>
@@ -241,7 +240,13 @@
     <div class="tab-pane" id="tab-three">
       <div class="row lm-row">
         <div class="col-md-12">
-          <p>What if the Sale Cancels?...</p>
+          <p class="center">
+            <img src="imgs/90percent.png" height="100" width="300" class="responsive" alt="90% of Sales close successfully">
+          </p>
+          <p class="center">On average, 90% of single family residential sales close as expected. In those rare instances when a sale falls through, simply replace the advance using future earned commissions. </p><br>
+          <p class="center">
+          <a class="joinButton btn btn-lg autoPromo">Let's Get Started<br><small>Apply in minutes. No credit check.</small></a></p>
+          <p class="center small">  Your fees are tax deductible!</p><br>
         </div>
       </div>
     </div>
@@ -305,7 +310,7 @@
 </div> <!-- End container -->
 
 <script type="text/javascript">
-//$(".panel-body").hide();
+$(".panel-body").hide();
 $(document).on('click', '.panel-heading' || 'span.icon', function(e){
 var $this = $(this);
 if(!$this.hasClass('panel-collapsed')) {
