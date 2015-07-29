@@ -1,0 +1,395 @@
+@charset "UTF-8";
+/* Gereral */
+body{
+	background-color:#F3F3F3;
+}
+/* Typeography */
+.h1 {
+	color:#0085B2;
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:800;
+}
+.h2 {
+	color:#0085B2;
+	font-family:"Open Sans", Helvetica, sans-serif;
+	font-weight:700;
+}
+.h3 {
+	color:#0085b2;
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+}
+.h3.white {
+	color:#fff;
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+}
+.h6 {
+	color:#333;
+	font-style:normal;
+	margin-bottom:0;
+}
+p {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+}
+a {
+	color:#333;
+	text-decoration:underline;
+}
+
+
+/* buttons */
+.btn {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:600;
+	background-color:#F18200;
+}
+.btn > p {
+	margin-bottom:0;
+}
+.btn:hover {
+	background-color:#e77d01;
+}
+.join-btn {
+	margin-top:10px;
+}
+
+/* header */
+header {
+	margin:0 auto;
+	padding:20px 0;
+	border-bottom:3px solid #46b7d5;
+	text-align:center;
+	background-color:#fff;
+}
+img[class="brand"]:first-child {
+	margin-right:20px;
+}
+
+/* main */
+main {
+	text-align:center;
+	background-image: url('../imgs/hero_background.jpg');
+	background-size:cover;
+	background-color:#46b7d5;
+    background-repeat: no-repeat;
+    background-position: center;
+	padding:20px;
+	color:#333;
+}
+.promo {
+	color:#005488;
+	font-size:12px;
+}
+
+/* perks */
+aside {
+	background-color:#0085B2;
+	color:#FFFFFF;
+	padding:20px;
+	text-align:center;
+	display : table;
+	width:100%;
+}
+.perk {
+	vertical-align:middle;
+	height:auto;
+}
+
+/* property section */
+#property {
+	background-color:#fff;
+	padding:15px 0 0 0;
+}
+.property-container {
+  margin-top:40px;
+  position:relative;
+  padding:0 40px;
+}
+.property {
+  background-image:url(../imgs/background-property-panel.jpg);
+  background-repeat: repeat;
+  background-color:#0085b2;
+  padding:20px;
+  /*overflow:hidden;*/
+  border-radius:10px;
+  overflow:visible;
+}
+.property-image {
+  width:91.5%;
+  margin:-64px 0;
+}
+.h1-property {
+  color:#FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:800;
+}
+.h3-property {
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700;
+}
+.p-property {
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+}
+span.num {
+  background-color:#FFF;
+  color:#0085b2;
+  font-size:26px;
+  font-weight:700;
+  padding:5px 15px;
+  height:60px;
+  width:160px;
+  border-radius:50%;
+  margin-right:10px;
+}
+.hr-property {
+  border:1px solid #0085b2;
+}
+select {
+  width:100%;
+  height:30px;
+  margin-top:20px;
+  font-family:'Open Sans', sans-serif;
+  /*font-size:24px;*/
+}
+.btn-property,
+.btn-property:visited {
+  margin-top:10px;
+  background-color:#f18200;
+  color:#FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700;
+  padding:10px 30px;
+}
+.btn-property:hover,
+.btn-property:active,
+.btn-property:focus {
+	color:white;
+	outline:none;
+}
+.property-dropdown {
+  padding-left:0;
+}
+
+/* Target FF */
+@media screen and (-moz-images-in-menus:0) {
+/*  select {
+    font-weight:normal;
+	font-size:inherit;
+  }*/
+  .btn-property {
+  	margin-top:13px;
+	padding:10px 30px;
+  }
+  .property-image {
+	width:91.5%;
+	margin:-60px 0;
+  }
+
+  @media (max-width:350px){
+	span.num {
+	  display:none;
+	}  
+  }
+  
+  @media (min-width:1200px){
+	.property-image {
+	  width:91.5%;
+	  margin:-51px 0px !important;
+	}
+  }
+}
+/* End Target FF */
+
+@media (max-width:767px){
+  #property {
+	padding-bottom:10px;
+  }
+  .property-container {
+	margin-top:-10px !important;
+	padding:15px;
+  }
+  .property {
+	border-radius:0;
+  }
+}
+
+@media (max-width:991px){
+  .property-container {
+	margin-top:20px;
+  }
+  .btn-property {
+	width:100%;
+	margin-top:10px;
+  }
+  .property-image {
+	display:none;
+  }
+  .property {
+	overflow:hidden;
+  }
+  .property-dropdown {
+	padding-right:0;
+  }
+}
+
+@media (min-width:1200px){
+  .property-image {
+	width:70%;
+	margin:-55px 0px;
+  }
+}
+
+/* learn more section */
+#lean-more {
+	background-color:white;
+}
+.row lm-row, .lm-row {
+    margin-top: 25px;
+    padding: 0 10px;
+}
+.icon {
+    cursor:pointer;   
+}
+.panel-primary {
+	border-color:#46B7D5;
+	margin-bottom:0;
+}
+.panel-primary > .panel-heading {
+	background-color:#46B7D5;
+	border-color:#46B7D5;
+}
+.panel-heading span {
+	margin-top: -20px;
+	font-size: 15px;
+}
+a[class="lm-tabs"] {
+	color:#d1d1d1;
+	text-decoration:none;
+}
+.nav > li > a:focus,.nav > li > a:hover {
+	background-color:transparent;
+	color:#005488;
+	border-color:transparent;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+	color:#005488;
+}
+.lm-container {
+	margin-top:0;
+	vertical-align:middle;
+}
+.lm-icon{
+	padding-right:8px;
+}
+.lm-icon-text {
+	margin-top:20px;
+	margin-left:20px;
+	font-size:12px;
+	vertical-align:middle;
+}
+
+@media (max-width: 991px) { 
+.lm-icon-text {
+	display:inline-block;
+	margin-top:8px;
+	margin-left:0;
+}
+}
+
+@media (max-width: 767px) { 
+.nav-tabs {
+	border:none;
+}
+.nav-tabs > li {
+	float:none;
+}
+.nav-tabs > li > a {
+	border-radius:4px;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+	border:1px solid #ddd;
+}
+.lm-read {
+	margin-bottom:20px;
+}
+.lm-icon-group {
+	padding-left:0;
+}
+.lm-icon-text {
+	display:inherit;
+	margin-top:30px;
+}
+}
+
+/* contact section */
+#contact {
+	background-color:#ABE0ED;
+	color:#333;
+	padding:40px;
+	text-align:center;
+}
+.info:first-child{
+	font-style:italic;
+}
+.info {
+	display:inline-block;
+	margin-right:10px;
+}
+.info:last-child {
+	margin-right:0;
+}
+
+/* partner alliance */
+#partner {
+	background-color:#FFFFFF;
+	padding:20px;
+	text-align:center;
+	color:#333;
+}
+#partner > img {
+	margin-top:10px;
+}
+#partner > p {
+	margin-top:20px;
+}
+
+/* testimonials */
+#testimonial{
+	background-color:#46b7d5;
+	color:#fff;
+	padding:10px;
+	text-align:center;
+}
+.endorsement {
+	margin:20px 0;
+	overflow: hidden;
+}
+.post {
+	background-color:#FFFFFF;
+	color:#333;
+	padding:10px;
+	text-align:left;
+	background-clip: padding-box;
+    border: 5px solid transparent;
+	font-style:italic;
+	
+	margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+.agent-office {
+	font-style:normal;
+	color:#cacaca;
+} 
+
+/* footer */
+footer {
+	background-color:#46b7d5;
+	color:#fff;
+	padding:20px;
+	font-size:12px;
+}

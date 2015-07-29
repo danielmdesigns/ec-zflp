@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Properties - Get Started Snippet</title>
+
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,700" rel="stylesheet" type="text/css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<!-- Font Awesome Icons -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<!-- jQuery served for Google -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<style>
+* {
+  margin:0;
+  padding:0;
+}
+.property-container {
+  margin-top:100px;
+  position:relative;
+}
+.property {
+  background-image:url(imgs/background-property-panel.jpg);
+  background-repeat: repeat;
+  background-color:#0085b2;
+  padding:20px;
+  overflow:hidden;
+  border-radius:10px;
+  overflow:visible;
+}
+.property-image {
+  width:111%;
+  margin:-105px 0;
+}
+.h1-property {
+  color:#FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:800;
+}
+.h3-property {
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700;
+}
+.p-property {
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+}
+span.num {
+  background-color:#FFF;
+  color:#0085b2;
+  font-size:26px;
+  font-weight:700;
+  padding:5px 15px;
+  height:60px;
+  width:160px;
+  border-radius:50%;
+  margin-right:10px;
+}
+.hr-property {
+  border:1px solid #0085b2;
+}
+select {
+  width:100%;
+  height:30px;
+  margin-top:20px;
+  font-family:font-family: 'Open Sans', sans-serif;
+  font-size:24px;
+}
+.btn-property,
+.btn-property:visited {
+  margin-top:18px;
+  background-color:#f18200;
+  color:#FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+  padding:0 30px;
+}
+.btn-property:hover,
+.btn-property:active,
+.btn-property:focus {
+	color:white;
+	outline:none;
+}
+.property-dropdown {
+  padding-left:0;
+}
+
+/* Target FF */
+@media screen and (-moz-images-in-menus:0){
+  select {
+    font-weight:normal;
+	font-size:inherit;
+  }
+  .btn-property {
+  	margin-top:20px;
+	padding:3px 30px;
+  }
+  .property-image {
+	width:111%;
+	margin:-94px 0;
+  }
+  
+  @media (max-width:350px){
+	span.num{
+	  display:none;
+	}  
+  }
+  
+  @media (min-width:1200px){
+	.property-image {
+	  width:85%;
+	  margin:-78px 0px !important;
+	}
+  }
+}
+
+@media (max-width:767px){
+  .property {
+	border-radius:0;
+  }
+}
+
+@media (max-width:991px){
+  .btn-property {
+	width:100%;
+	margin-top:10px;
+  }
+  .property-image {
+	display:none;
+  }
+  .property {
+	overflow:hidden;
+  }
+  .property-dropdown {
+	padding-right:0;
+  }
+}
+
+@media (min-width:1200px){
+  .property-image {
+	width:85%;
+	margin:-89px 0px;
+  }
+}
+</style>
+</head>
+
+<body>
+<div class="container property-container">
+  <div class="row">
+    <div class="property col-md-12">
+      <div class="col-md-3">
+  		<img class="property-image" src="imgs/cathy-property-panel.png" alt="">
+   	  </div>
+    
+    <div class="col-md-9">
+      <h1 class="h1-property"><span class="num">1</span>Get Started</h1>
+      <hr class="hr-property">
+    <h3 class="h3-property">Select a Property to Advance your Commission</h3>
+    <p class="p-property">Click the drop down below to select which property you would like to advance your commission from. Advance your commission up to 120 days before closing!</p>
+    
+    <div class="col-md-9 property-dropdown">
+    <select>
+    <optgroup class="optgroup">
+      <option>Click to Select a Property</option>
+      <option>9335 Great Panda Ave, Old House, SC, 29649</option>
+      <option>3370 Jagged Anchor Lane, Liskeytown, MT, 59296</option>
+      <option>4947 Old Beacon Common, Shongopovi, WY, 82725</option>
+      <option>4271 Thunder Orchard, TownBluff, SC, 29815</option>
+      <option>5821 Heather Sky Line, Glasgow, MT, 59308</option>
+      <option>4836 Cotton Heights, Tooktocaugee, SD, 57270</option>
+    </optgroup>
+    </select>
+    </div>
+	<button class="btn btn-property pull-left">Submit</button>
+    </div>
+  </div>
+  </div>
+</div>
+
+</body>
+</html>

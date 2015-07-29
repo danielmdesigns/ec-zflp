@@ -1,0 +1,110 @@
+/* buttons */
+.btn {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:600;
+	color:#fff;
+	background-color:#F18200;
+	text-decoration:none;
+}
+.btn:hover {
+	color:#fff;
+	background-color:#e77d01;
+}
+#lm-slider .btn {
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 100%;
+	color: #FFF;
+	
+}
+#lm-slider .btn small {
+	font-size: 15px;
+	font-weight: 300;
+	display: block;
+}
+#lm-slider .btn:hover small {
+	font-weight: 600;
+}
+#lm-slider p.small {
+	font-size: 13px;
+	text-align: center;
+	padding-top: 7px;
+}
+
+/* center headings */
+h2.center, h3.center {
+	display: block;
+	text-align: center;
+}
+p.center {
+	display: block;
+	/*width: 75%;*/
+	margin: 0px auto;
+	text-align: center;
+	font-size: 18px;
+}
+.lm-cost-callout {
+	color:#46b7d5;
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:800;
+	font-size:46px;
+	display: block;
+	text-align: center;
+}
+.lm-brand-callout {
+	color:#46b7d5;
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:800;
+	font-size:32px;
+	text-align: center;
+}
+
+/* pricing table */
+table {
+  	border: 10px solid #FFF;
+  	box-shadow: 0 0 5px rgba(0,0,0,.2);
+  	width: 90%;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+  	margin: 0 auto;
+}
+table td {
+  	background-color: #EEE;
+  	padding: 5px 10px;
+  	font-size: 130%;
+}
+tr.underline td {
+  	border-bottom: 3px double #AAA;
+}
+
+/* advance amount */
+#sliderValue {
+  	font-weight: bold;
+  	color: #0085B2;
+  	font-size: 120%;
+}
+
+/* due at closing */
+#totalValue {
+  	color: #000;
+}
+
+/* slider bar */
+#commission {
+  	margin: 30px 0 50px 0;
+}
+
+/*slider color*/
+.noUi-connect {
+  	background: none repeat scroll 0 0 #46B7D5 !important;
+}
+
+/* promo */
+.offer {
+	border-radius:10px;
+	color: #FFF;
+	background-color: #46B7D5;
+	padding: 20px;
+	text-align: center;
+	font-size:24px;
+}           
